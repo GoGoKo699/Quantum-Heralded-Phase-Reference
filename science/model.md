@@ -7,12 +7,12 @@ A qubit arriving in one of two opposite equatorial states encodes a sign. A rece
 The finite reference has nondegenerate charge levels $`0,\ldots,N`$ and a supplied pure template. The receiver knows its coefficients $`c_i`$ and uses the same instrument at every orientation $`\phi`$. A batch contains $`k`$ copies with the same hidden sign $`s\in\{+1,-1\}`$ and the same orientation as the reference.
 
 ```math
-|R_\phi\rangle=\sum_{i=0}^N c_i e^{i i\phi}|i\rangle,\qquad
-|s_\phi\rangle=\frac{|0\rangle+s e^{i\phi}|1\rangle}{\sqrt 2},
+|R_\phi\rangle=\sum_{i=0}^N c_i e^{\mathrm{i}i\phi}|i\rangle,\qquad
+|s_\phi\rangle=\frac{|0\rangle+s e^{\mathrm{i}\phi}|1\rangle}{\sqrt 2},
 \qquad |\Psi_{s,\phi}\rangle=|R_\phi\rangle\otimes |s_\phi\rangle^{\otimes k}.
 ```
 
-The reference weights $`w_i=|c_i|^2`$ sum to one and extend by zero outside the ladder. The signal charge counts excitations. The joint symmetry acts at total charge $`Q`$ by the phase factor $`e^{iQ\phi}`$. Each operation labeled $`+,-,?`$ is completely positive and covariant, and the three operations sum to a trace-preserving channel. The flags are invariant. An implementation may use a charge-conserving unitary, an initially invariant ancillary state and an invariant readout. Coherence shared with the source enters through the supplied reference and the $`k`$ signals.
+The reference weights $`w_i=|c_i|^2`$ sum to one and extend by zero outside the ladder. The signal charge counts excitations. The joint symmetry acts at total charge $`Q`$ by the phase factor $`e^{\mathrm{i}Q\phi}`$. Each operation labeled $`+,-,?`$ is completely positive and covariant, and the three operations sum to a trace-preserving channel. The flags are invariant. An implementation may use a charge-conserving unitary, an initially invariant ancillary state and an invariant readout. Coherence shared with the source enters through the supplied reference and the $`k`$ signals.
 
 Writing $`\rho_R(\phi)=|R_\phi\rangle\langle R_\phi|`$, a conclusive branch has the contract
 
