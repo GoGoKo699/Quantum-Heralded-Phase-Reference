@@ -1,0 +1,17 @@
+# Quantum Heralded Phase Reference
+
+> A charge-conserving binary phase receiver returns its finite pure reference on every conclusive outcome. Two copies give a sharp finite law. For fixed copy count, reference return incurs an odd-copy scaling penalty.
+
+## Scientific routes
+
+- [Model and reuse](science/model.md): input promise, U(1) covariance, exact branch contract, resource accounting and lifetime.
+- [Receiver](science/receiver.md): charge-sector parity vectors, exact fixed-profile linear program, Kraus realization and optimal two-copy reference.
+- [Parity law](science/parity-law.md): fixed-copy exponents, sine-power reference construction, odd-copy converse and disposable benchmark.
+- [Phase mismatch](science/phase-mismatch.md): zero-error interval obstruction, off-model response, squared-sine design and two-copy return distance.
+- [Related work](references/RELATED_WORK.md): imported symmetry and discrimination tools, and comparisons with earlier reference-frame tasks.
+
+## Learn and verify
+
+- [Educational bridge](learning/BARTLETT_RUDOLPH_SPEKKENS_BRIDGE.md): key parts of Bartlett, Rudolph and Spekkens and their use in the project.
+- [Milestones](learning/MILESTONES.md): 30 steps from shared-phase preliminaries to the reference-return and mismatch bounds.
+- [Verification](verification/README.md): finite instrument, optimization and phase-mismatch checks.
